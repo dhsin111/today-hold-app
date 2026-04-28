@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today Hold</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Today Hold</h1>
+      <p class="welcome">You only need to get through this minute.</p>
+
+      <p id="timer" class="timer">60 seconds</p>
+      <p id="breathMessage" class="message">Tap the button when you're ready.</p>
+
+      <button id="startButton" class="start-button">Stay with me for 1 minute</button>
+
+      <section class="note-section">
+        <label for="kindNote">One kind message to yourself:</label>
+        <textarea
+          id="kindNote"
+          rows="3"
+          placeholder="I am doing my best, and that is enough."
+        ></textarea>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
